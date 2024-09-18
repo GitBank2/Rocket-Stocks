@@ -34,7 +34,8 @@ vision_output = module.signatures['video'](tf.constant(tf.cast(input_frames, dty
 audio_output = module.signatures['audio'](tf.constant(tf.cast(input_audio, dtype=tf.float32)))
 text_output = module.signatures['text'](tf.constant(input_words))
 
-pip install yfinance tweepy numpy pandas scikit-learn tensorflow transformers kafka-python
+    pip install yfinance tweepy numpy pandas scikit-learn tensorflow transformers kafka-python
+
 
 
 
